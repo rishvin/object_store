@@ -1,0 +1,5 @@
+python3 -m venv venv
+source venv/bin/activate
+export FLASK_APP=storage_server.py
+flask run --host 0.0.0.0 --port 50002
+#gunicorn --workers 1 --bind 0.0.0.0:50002 storage_server:app

@@ -1,0 +1,5 @@
+python3 -m venv venv
+source venv/bin/activate
+export FLASK_APP=api_gateway_server.py
+flask run --host 0.0.0.0 --port 50000
+#gunicorn --workers 2 --bind 0.0.0.0:50000 api_gateway_server:app

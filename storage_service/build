@@ -1,0 +1,2 @@
+rm storage_service.cpython-38-x86_64-linux-gnu.so
+g++ -O3 -Wall -Wno-undef -shared  --std=c++17 -fPIC $(python3 -m pybind11 --includes) src/block_store.cpp  -o storage_service$(python3-config --extension-suffix)
