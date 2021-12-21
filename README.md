@@ -2,6 +2,8 @@ An object store purpose build to store BLOB.
 
 The object store provides a simple architecture to store objects.
 
+# Under development 
+
 <br/><br/>
 # Requirements
 **NOTE: The code is currently tested in Ubuntu 20**:
